@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" uiid="Formlogin" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="4" >
+  <component type="Container" name="Containe" cloudDestinationProperty="Containe" uiid="ContainerCENTER" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+    <component type="Container" name="Container" cloudDestinationProperty="Container" uiid="ContainerC" layout="BorderLayout" borderLayoutAbsoluteCenter="false" >
+      <component type="TextField" name="nom" cloudBoundProperty="text" cloudDestinationProperty="TextField" text="" hint="Username" >
+        <layoutConstraint value="North" />
+      </component>
+      <component type="TextField" name="pwd" cloudBoundProperty="text" cloudDestinationProperty="TextField1" text="" hint="Password" >
+        <layoutConstraint value="South" />
+      </component>
+    </component>
+    <component type="Button" name="OK" cloudDestinationProperty="Button" uiid="Buttonbb" focusable="false" text="" icon="loginbut.png" >
+    </component>
+  </component>
+</component>

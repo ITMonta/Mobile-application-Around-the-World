@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 2" cloudDestinationProperty="GUI 2" uiid="Form" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" >
+    <component type="Button" name="Back" cloudDestinationProperty="Back" text="Button" >
+    </component>
+  </component>
+</component>
